@@ -1,0 +1,110 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+}
+body, p, a, ul, li, div, nav{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+.container{
+    width: 1060px;
+    margin: 0 auto;
+}
+header{
+    padding: 15px 0px 15px 0px ;
+    background: #DDD8D8;
+}
+.container__header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo{
+    margin: 0px 28px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    height: 55px;
+    display: flex;
+}
+.logo__img{
+    display: block;
+    height: 55px;
+    width: 55px;
+    background: #AEABAB;
+}
+.logo__text{
+    margin: 0px 0px 0px 8px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.logo__name{
+    font-weight: 900;
+}
+.logo__under{
+    font-size: 12px;
+}
+.header__nav{
+    display: flex;
+    align-items: center;
+}
+.header__nav ul{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+.header__nav ul li{
+    margin: 0px 40px 0px 0px;
+}
+.phone{
+    font-size: 11px;
+    font-weight: 700;
+}
+.phone, .call{
+    display: block;
+    align-self: center;
+}
+.call{
+    margin: 0px 32px 0px 30px;
+    padding: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.31);
+    box-sizing: border-box;
+}
+.busket{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.busket__icon{
+    display: block;
+    width: 35px;
+    height: 35px;
+    background: #ACA1A1;
+}
+.money{
+    margin: 0px 0px 0px 9px;
+}
+.busket__triangle{
+    margin: 0px 0px 0px 9px;
+}
+
+footer{
+    margin: 90px 0px 0px 0px;
+    padding: 77px 0px 130px 0px;
+    color: #ffffff;
+    background: #7A7474;
+}
+footer a{
+    color: #ffffff;
+}
+footer .call{
+    border: 1px solid rgba(247, 233, 233, 0.77);
+    box-sizing: border-box;
+}

@@ -1,0 +1,134 @@
+h1, h2, h3{
+    font-weight: 900;
+    margin: 0px 0px 0px 0px;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 40px;
+}
+.offer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.offer__block{
+    display: block;
+    margin: 0px 40px 0px 0px;
+}
+.offer__title{
+    margin: 125px 0px 0px 0px;
+}
+.offer__text{
+    margin: 57px 0px 0px 0px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.btn{
+    padding: 22px 77px;
+    margin: 50px 0px 0px 0px;
+
+    width: 100px;
+    display: block;
+
+    font-weight: 900;
+    font-size: 20px;
+    
+    color: #ffffff;
+    background: #000000;
+    border-radius: 22px;
+}
+.offer__slider{
+    min-width: 500px;
+    height: 520px;
+    background: #F3F2F2;
+}
+
+
+.hot{
+    margin: 40px 0 0 0;
+}
+.hot__topbox{
+    display: flex;
+    flex-direction: row;
+}
+.hot__nav{
+    margin: 0px 0px 0px 40px;
+    display: block;
+    align-self: flex-end;
+}
+.hot__nav ul{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.hot__slider{
+    margin: 80px 0px 0px 0px;
+}
+.hot__main__sliderblock{
+    display: flex;
+    justify-content: space-between;
+}
+.hot__block{
+    background: #AEABAB;
+    width: 250px;
+    height: 340px;
+}
+.hot__underblock{
+    width: 440px;
+    height: 10px;
+
+    margin: 63px auto;
+
+    display: block;
+
+    background: #F1F1F1;
+}
+.hot__two__pictures{
+    margin: 106px 0 0 0;
+
+    display: flex;
+    justify-content: space-between;
+}
+.hot__two__pictures__block{
+    width: 520px;
+    height: 422px;
+    background: #E7E6E6;
+}
+.list{
+    margin: 60px 0px 20px 0px;
+}
+.list__title{
+    margin: 0 0 112px 0;
+}
+.list__block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.list__item{
+    margin: 0px 0px 20px 0px;
+    width: 250px;
+    height: 347px;
+    background: #E7E6E6;
+}
+
+.about__block{
+    margin: 112px 0px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.about__item{
+    display: flex;
+    flex-direction: row;
+}
+.about__undertitle{
+    font-size: 35px;
+}
+.about__text{
+    max-width: 150px;
+    margin: 0px 0px 0px 16px;
+    display: block;
+    align-self: center;
+}
