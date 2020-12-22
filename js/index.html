@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+    		<div class="col-sm-4">
+    			<div class="calc">
+                    <h1>Примитивный калькулятор</h1>
+
+                        <div class="form-group">    					   
+                            <div class="form-item form-item_1">
+                                <label for="inp_1" class="form-input">Введите число 1:</label> 
+	                            <input type="text" class="form-control" id="inp_1">
+                            </div>
+                            <div class="form-item form-item_2">
+                                <label for="inp_2" class="form-input">Введите число 2:</label> 
+	                            <input type="text" class="form-control" id="inp_2">
+                            </div>
+                        </div>
+                        
+                           <div class="btn_case">
+                                <button onclick="multi()" class="btn btn-primary">Умножить</button>
+                                <button onclick="sum()" class="btn btn-primary">Сложить</button>
+                                <button onclick="minus()" class="btn btn-primary">Отнять</button>
+                                <button onclick="separate()" class="btn btn-primary">Разделить</button>
+                           </div>
+					<hr>
+					
+    					<p class="result_text">Рeзультат: <span id="result_multi"></span></p>
+    				
+			    </div>
+    		</div>
+    	</div>
+    </div>
+</body>
+</html>

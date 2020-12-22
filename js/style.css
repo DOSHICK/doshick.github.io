@@ -1,0 +1,63 @@
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow',
+    Arial, sans-serif;
+}
+h1{
+    text-align: center;
+    margin: 0 auto 20px auto;
+}
+.container{
+    width: 700px;
+    margin: auto;
+}
+.calc {
+	margin-top: 20px;
+	border: 6px solid #aeaeae;
+	padding: 20px 40px;
+}
+
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-item {
+    font-size: 20px;
+    margin: 10px 0px 10px 0px;
+}
+input{
+    font-size: 18px;
+    padding: 7px 10px ;
+    border-radius: 10px;
+    border: 2px rgba(28, 172, 116, 0.781) solid;
+    outline: none;
+}
+.btn_case{
+    display: flex;
+    flex-direction: row;
+}
+.btn {
+    outline: none;
+    border: none;
+    background: #aeaeae;
+    border-radius: 20px;
+    padding: 10px 15px;
+    display: block;
+    margin: 20px auto 0 auto;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn:hover{
+    background: rgb(29, 168, 59);
+}
+.result_text{
+    font-size: 30px;
+}
+#result_multi {
+    padding: 0px 20px 0px 0px;
+	font-size: 25px;
+	font-weight: 900;
+}
